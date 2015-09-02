@@ -17,10 +17,10 @@
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <script>
-    
-      $.getJSON('JSON/markletsObj.json', function(data) {
-	console.log(data);
-      });
+    loadJSON(function(response) {
+	var actual_JSON = JSON.parse(response);
+	console.log(actual_JSON);
+    });
   </script>
 </head>
 
