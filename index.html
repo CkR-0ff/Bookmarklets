@@ -45,9 +45,14 @@
   </table>
   
   <script>
-    document.getElementById('aElem').href = testString1;
-    document.getElementById('aElem2').href = testString2;
-    console.log('str',testString2); 
+//     document.getElementById('aElem').href = testString1;
+//     document.getElementById('aElem2').href = testString2;
+//     console.log('str',testString2); 
+    var json = RetJson();
+    for(var i = o; i<json.marklets.length; i++){
+      console.log(json.marklets[i]);
+    }
+    
   </script>
 </body>
 </html>
