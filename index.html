@@ -17,12 +17,15 @@
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <script>
-    var xmll = loadXMLDoc('xmlFiles/marklets.xml');
-    console.log('try',xmll);
+    function somsom(){
+      $.getJSON('JSON/markletsObj.json', function(data) {
+      console.log(data);
+      });
+    }
   </script>
 </head>
 
-<body>
+<body onload="somsom();">
 
   <div class="wrapper">
     <header>
