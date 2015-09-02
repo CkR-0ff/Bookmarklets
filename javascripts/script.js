@@ -61,7 +61,7 @@ else
   {
   xhttp=new ActiveXObject("Microsoft.XMLHTTP");
   }
-xhttp.open("GET",dname,false);
+xhttp.open("GET",dname);
 xhttp.send();
 return xhttp.responseXML;
 }
