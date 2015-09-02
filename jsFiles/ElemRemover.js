@@ -122,17 +122,17 @@ function RetJson(){
     "marklets": [
       {
 	"Title": "ElementRemover", 
-	"ElementRemover": ElementRemover, 
+	"Code": ElementRemover, 
 	"Description": "1111"
       },
       {
 	"Title": "Webm Auto Download", 
-	"WebmAutoDownload": WebmAutoDownload, 
+	"Code": WebmAutoDownload, 
 	"Description": "222"
       },
       {
 	"Title": "Download-ready Webm", 
-	"DownloadReadyWebm": DownloadReadyWebm, 
+	"Code": DownloadReadyWebm, 
 	"Description": "333"
       }
     ]

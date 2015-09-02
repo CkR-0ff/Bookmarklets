@@ -10,7 +10,7 @@
 
 <body>
   
-  <table>
+  <table id="thetab">
     <th colspan="2">
       Drag the link to your bookmarks bar.
     </th>
@@ -22,35 +22,28 @@
 	<b>Discription</b>
       </td>
     </tr>
-    <tr>
-      <td>
-	<a id="aElem" href="" >
-	  Element Remover
-	</a>
-      </td>
-      <td>
-	After activation hoverd elements on the rage have red outlining. Right click hides the element.
-      </td>
-    </tr>
-    <tr>
-      <td>
-	<a id="aElem2" href="" >
-	  Element Remover
-	</a>
-      </td>
-      <td>
-	Same thing
-      </td>
-    </tr>
   </table>
   
-  <script>
+  <script>/*
     console.log('str',ElementRemover); 
     console.log('str',WebmAutoDownload); 
-    console.log('str',DownloadReadyWebm); 
+    console.log('str',DownloadReadyWebm); */
+    
+    var tbl = document.getElementById("thetab");
+    
     var json = RetJson();
     for(var i = 0; i<json.marklets.length; i++){
-      console.log(json.marklets[i]);
+      var tr = document.createElement("tr");
+      var td_Lnk = document.createElement("td");
+      var a_Lnk = document.createElement("a");
+      a_Lnk.href = json.marklets[i].Code;
+      a_Lnk.innerHTML = json.marklets[i].Title;
+      td_Lnk.appendChild(a_lnk);
+      tr.appendChild(td_Lnk);
+      var td_Desc = document.createElement("td");
+      td_Desc.innerHTML = json.marklets[i].Description;
+      tr.appendChild(td_Desc);
+      tbl.appendChild(tr);
     }
 
   </script>
