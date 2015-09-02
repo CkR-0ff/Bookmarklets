@@ -1,4 +1,4 @@
-var testString1 = function(){/*javascript: (
+javascript: (
   function (){
     var tooltiper = null;
     if(!localStorage.RClck){
@@ -60,4 +60,4 @@ var testString1 = function(){/*javascript: (
       }
     }
   }
-)();*/}.toString().slice(14, -4);
+)();
