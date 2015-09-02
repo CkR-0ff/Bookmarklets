@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE doc [
-<!ENTITY MsDown SYSTEM "../javascript/marklets/MsDown.js">
-<!ENTITY MsReady SYSTEM "../javascript/marklets/MsReady.js">
+<!ENTITY MsDown SYSTEM "../javascripts/marklets/MsDown.js">
+<!ENTITY MsReady SYSTEM "../javascripts/marklets/MsReady.js">
 ]>
 
 <bookmarklets>
