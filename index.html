@@ -16,7 +16,10 @@
   <meta name="description" content="Repository for bookmarklets and their page.">
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
-
+  <script>
+    var xmll = loadXMLDoc('/xmlFiles/marklets.xml');
+    console.log('try',xmll);
+  </script>
 </head>
 
 <body>
@@ -37,39 +40,7 @@
         <span class="blc"></span><span class="trc"></span>
         </div>
         <article class="markdown-body">
-         <table>
-	  <th colspan="2">
-	    Drag the link to your bookmarks bar.
-	  </th>
-	  <tr>
-	    <td>
-	      <b>Link</b>
-	    </td>
-	    <td>
-	      <b>Discription</b>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td>
-	      <a id="aElem" href="" >
-		Element Remover
-	      </a>
-	    </td>
-	    <td>
-	      After activation hoverd elements on the rage have red outlining. Right click hides the element.
-	    </td>
-	  </tr>
-	  <tr>
-	    <td>
-	      <a id="aElem2" href="" >
-		Element Remover
-	      </a>
-	    </td>
-	    <td>
-	      Same thing
-	    </td>
-	  </tr>
-	</table>
+          <p id="xmltry"></p>
         </article>
       </div>
     </div>

@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE doc [
+<!ENTITY MsDown SYSTEM "/javascript/marklets/MsDown.js">
+<!ENTITY MsReady SYSTEM "/javascript/marklets/MsReady.js">
+]>
+
+<bookmarklets>
+  <marklet>
+    <title>
+      WebmAutoDownolad
+    </title>
+    <code>
+      &MsDown;
+    </code>
+    <description>
+      After activation hoverd elements on the rage have red outlining. Right click hides the element.
+    </description>
+  </marklet>
+  <marklet>
+    <title>
+      DownloadReadyWebm
+    </title>
+    <code>
+      &MsReady;
+    </code>
+    <description>
+      Webms on click open download window.
+    </description>
+  </marklet>
+</bookmarklets>
