@@ -121,19 +121,19 @@ function RetJson(){
   var obj = {
     "marklets": [
       {
-	"Title": "ElementRemover", 
+	"Title": "Element Remover", 
 	"Code": ElementRemover, 
-	"Description": "1111"
+	"Description": "When activated the hovered element is outlined in red and his name is shown. On rignt click the element is removed. The functionality is removed on second click of the bookmarklet."
       },
       {
-	"Title": "Webm Auto Download", 
+	"Title": "4chan Auto Download", 
 	"Code": WebmAutoDownload, 
-	"Description": "222"
+	"Description": "Automaticaly downloads all post pictures(images, WEBMs, GIFs, etc.) in a 4chan thread. Creates and downloads 'NamesLinks.txt containig the coresponding String names to every code name of every picture.'"
       },
       {
-	"Title": "Download-ready Webm", 
+	"Title": "Download-ready 4chan", 
 	"Code": DownloadReadyWebm, 
-	"Description": "333"
+	"Description": "In 4chan thread every picture when clicked opens a 'Save As' dialog with the its page name."
       }
     ]
     
