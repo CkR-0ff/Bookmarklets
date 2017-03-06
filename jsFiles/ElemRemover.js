@@ -102,6 +102,18 @@ var DownloadReadyWebm = function(){/*javascript: (
   }()
 );*/}.toString().slice(14, -4);
 
+var CSSHider = function(){/*javascript: (function() {
+    for (var i = 0; i < arguments.length; i++) {
+        var elems = document.querySelectorAll(arguments[i].toString());
+        if (elems) {
+            var elArr = Array.from(elems);
+            elArr.forEach(function(el, idx, arr) {
+                el.style.display = 'none';
+            });
+        }
+    }
+}());*/}.toString().slice(14, -4);
+
 function RetJson(){
   var obj = {
     "marklets": [
@@ -119,6 +131,11 @@ function RetJson(){
 	"Title": "Download-ready 4chan", 
 	"Code": DownloadReadyWebm, 
 	"Description": "In 4chan thread every picture when clicked opens a 'Save As' dialog with the its page name."
+      },
+      {
+	"Title": "CSS Hider", 
+	"Code": CSSHider, 
+	"Description": "Hide elements on a page by CSS selector. The selectors are given as params to the anon function."
       }
     ]
     
